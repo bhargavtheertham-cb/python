@@ -12,3 +12,6 @@ os.fdopen() takes an existing file descriptor and builds a Python file object ar
 
 So both of these functions provide more close to the system functionality to work with in Python.
 ```
+
+line in f.readlines() --> loads the entire file
+line in f --> reads one line at a time
